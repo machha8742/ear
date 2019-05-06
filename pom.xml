@@ -77,6 +77,23 @@
                 <version>${project.version}</version>
                 <type>ejb</type>
             </dependency>
+           
+            <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+            <dependency>
+               <groupId>org.junit.jupiter</groupId>
+               <artifactId>junit-jupiter-api</artifactId>
+               <version>5.5.0-M1</version>
+               <scope>test</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.maven.surefire/surefire-booter -->
+            <dependency>
+              <groupId>org.apache.maven.surefire</groupId>
+              <artifactId>surefire-booter</artifactId>
+              <version>3.0.0-M3</version>
+            </dependency>
+
+
             
             <!-- Define the version of the WAR so that we don't need to repeat 
                 ourselves in every module -->
